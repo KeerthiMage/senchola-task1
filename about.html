@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About and Registration</title>
+    
+</head>
+<body style="background-color: rgb(178, 201, 190);">
+<div class="center1" align="center">
+ <h1>About us</h1>
+ <!-- Link to home and about page -->
+<h2 ><a href="index.html">Home Page</a> </h2>  
+<h2><a href="about.html">about Page</a></h2>
+<p>Welcome to our website. We are dedicated to providing information about our topic.</p>
+<h3>Our Topic</h3>
+<p>Here, you can learn all about our topic, its history, importance, and much more.</p><br>
+<!-- Link to Registration Form -->
+<a href="#registration">Click here to register</a>
+</div>
+<div id="about" class="content" align="center">
+    <p>Ready to get started? Please fill out our registration form:</p>
+<!-- Registration Form Section -->
+<div id="registration" align="center" style="background-color: rgb(203, 233, 203);  width:30%; margin: 30px; padding: 30px; height: 30%;" >
+    <h2>Registration Form</h2>
+    <form align="start">
+        <label for="fname" style="margin-right: 10px;">First Name:</label>
+        <input type="text" style="margin-left: 10px;" id="fname" name="fname" align="center"><br><br>
+
+        <label for="lname"style="margin-right: 10px;">Last Name:</label>
+        <input type="text" style="margin-left: 11px;" id="lname" name="lname"align="center"><br><br>
+
+        <label for="email"style="margin-right: 10px;">Email:</label>
+        <input type="email"style="margin-left: 42px;" id="email" name="email"align="center"><br><br>
+
+        <label for="password"style="margin-right: 10px;">Password:</label>
+        <input type="password" style="margin-left: 20px;"  id="password" name="password"align="center"><br><br>
+
+        <label for="gender"style="margin-right: 10px;">Gender:</label>
+        <input type="radio" style="margin-left: 30px;" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label for="birthdate"style="margin-right: 10px;">Date of Birth:</label>
+        <input type="date" id="birthdate" name="birthdate"><br><br>
+
+        <label for="country"style="margin-right: 10px;">Country:</label>
+        <select id="country" style="margin-left: 30px;" name="country">
+            <option value="usa">United States</option>
+            <option value="canada">Canada</option>
+            <option value="uk">United Kingdom</option>
+            <option value="other">Other</option>
+        </select><br><br>
+        <label for="language" style="margin-right: 10px;">language:</label>
+        <select id="language" style="margin-left: 25px;" name="language">
+            <option value="tamil">TAMIL</option>
+            <option value="english">ENGLISH</option>
+            <option value="hindi">HINDI</option>
+            <option value="telugu">TELUGU</option>
+        </select><br><br>
+        <label for="zipcode" style="margin-right: 10px;">Zipcode:</label>
+        <select id="zipcode"style="margin-left: 30px;"  name="zipcode">
+            <option value="1">000</option>
+            <option value="2">111</option>
+            <option value="3">333</option>
+            <option value="4">444</option>
+        </select><br><br>
+        <label for="About" style="margin-right: 10px; padding-bottom: 30px;">About:</label>
+        <textarea name="about"style="margin-left: 40px;"   rows="5" cols="30" style="width:200px; height:100px;">right about yourself</textarea>
+        <br><br>
+        <input type="submit" value="Register">
+    </form>
+</div>
+</div>
+
+</body>
+</html>
